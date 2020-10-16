@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.backtracedemoapp"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -29,6 +29,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.github.backtrace-labs.backtrace-android:backtrace-library:3.1.0'
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
